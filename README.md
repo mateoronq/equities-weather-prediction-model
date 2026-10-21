@@ -1,8 +1,8 @@
 # Equities Weather Prediction Model
 
-**Business 35137 — Winter 2026 · Final Project**
+## Description
 
-Do local weather shocks help explain stock returns for weather-exposed companies? This project builds a firm-month panel of U.S. equities in three "atmospheric" sectors (Agriculture & Food, Utilities & Telecom, Leisure & Tourism), maps each firm to the counties where it operates, attaches county-level rainfall and temperature anomalies and state-level solar irradiance anomalies, and tests whether those shocks add explanatory power on top of the Fama-French 3-factor model.
+This project builds a monthly panel of US equities in three sectors (Agriculture & Food, Utilities & Telecom, Leisure & Tourism) that are more susceptible to weather shocks, maps each firm to the counties where it operates, attaches county-level rainfall and temperature anomalies and state-level solar irradiance anomalies, and tests whether those shocks add explanatory power on top of the Fama-French 3-factor model.
 
 ## Pipeline
 
@@ -36,7 +36,7 @@ export SEC_EDGAR_IDENTITY="Your Name your.email@example.com"   # SEC asks for a 
 
 ## Data
 
-Data files are **not** included in this repo (CRSP/Compustat are licensed through WRDS). The notebooks expect this layout next to the `notebooks/` folder:
+Data files not included in this repository. The notebooks expect this layout next to the `notebooks/` folder:
 
 ```
 Data/
